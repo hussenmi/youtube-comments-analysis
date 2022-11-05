@@ -13,9 +13,9 @@ Requirements:
 from sqlalchemy import create_engine
 import psycopg2
 import pandas as pd
-import os
 import MySQLdb
 from secret import *
+import os
 
 class DBConnector():
 
